@@ -122,6 +122,19 @@
 		3735A1A915D4EA83001C80C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735A1A815D4EA83001C80C0 /* AppDelegate.m */; };
 		3735A1AC15D4EA83001C80C0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735A1AB15D4EA83001C80C0 /* RootViewController.m */; };
 		3735A1AF15D4EA83001C80C0 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735A1AE15D4EA83001C80C0 /* HelloWorldLayer.m */; };
+		373954B115D4F60200F78440 /* BadMonster.png in Resources */ = {isa = PBXBuildFile; fileRef = 373954A915D4F60200F78440 /* BadMonster.png */; };
+		373954B215D4F60200F78440 /* GoodMonster.png in Resources */ = {isa = PBXBuildFile; fileRef = 373954AA15D4F60200F78440 /* GoodMonster.png */; };
+		373954B315D4F60200F78440 /* Hole.plist in Resources */ = {isa = PBXBuildFile; fileRef = 373954AB15D4F60200F78440 /* Hole.plist */; };
+		373954B415D4F60200F78440 /* Hole.png in Resources */ = {isa = PBXBuildFile; fileRef = 373954AC15D4F60200F78440 /* Hole.png */; };
+		373954B515D4F60200F78440 /* LHole.png in Resources */ = {isa = PBXBuildFile; fileRef = 373954AD15D4F60200F78440 /* LHole.png */; };
+		373954B615D4F60200F78440 /* Monsters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 373954AE15D4F60200F78440 /* Monsters.plist */; };
+		373954B715D4F60200F78440 /* Monsters.png in Resources */ = {isa = PBXBuildFile; fileRef = 373954AF15D4F60200F78440 /* Monsters.png */; };
+		373954B815D4F60200F78440 /* RHole.png in Resources */ = {isa = PBXBuildFile; fileRef = 373954B015D4F60200F78440 /* RHole.png */; };
+		373954BC15D4F63500F78440 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 373954BB15D4F63500F78440 /* Level.m */; };
+		373954C215D4F95100F78440 /* background.plist in Resources */ = {isa = PBXBuildFile; fileRef = 373954BE15D4F95100F78440 /* background.plist */; };
+		373954C315D4F95100F78440 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 373954BF15D4F95100F78440 /* background.png */; };
+		373954C415D4F95100F78440 /* background.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 373954C015D4F95100F78440 /* background.pvr.ccz */; };
+		373954C515D4F95100F78440 /* bg_dirt.png in Resources */ = {isa = PBXBuildFile; fileRef = 373954C115D4F95100F78440 /* bg_dirt.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -360,6 +373,20 @@
 		3735A1AD15D4EA83001C80C0 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
 		3735A1AE15D4EA83001C80C0 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		3735A1B015D4EA83001C80C0 /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
+		373954A915D4F60200F78440 /* BadMonster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BadMonster.png; sourceTree = "<group>"; };
+		373954AA15D4F60200F78440 /* GoodMonster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoodMonster.png; sourceTree = "<group>"; };
+		373954AB15D4F60200F78440 /* Hole.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Hole.plist; sourceTree = "<group>"; };
+		373954AC15D4F60200F78440 /* Hole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hole.png; sourceTree = "<group>"; };
+		373954AD15D4F60200F78440 /* LHole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LHole.png; sourceTree = "<group>"; };
+		373954AE15D4F60200F78440 /* Monsters.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Monsters.plist; sourceTree = "<group>"; };
+		373954AF15D4F60200F78440 /* Monsters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Monsters.png; sourceTree = "<group>"; };
+		373954B015D4F60200F78440 /* RHole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RHole.png; sourceTree = "<group>"; };
+		373954BA15D4F63500F78440 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		373954BB15D4F63500F78440 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+		373954BE15D4F95100F78440 /* background.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = background.plist; sourceTree = "<group>"; };
+		373954BF15D4F95100F78440 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		373954C015D4F95100F78440 /* background.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = background.pvr.ccz; sourceTree = "<group>"; };
+		373954C115D4F95100F78440 /* bg_dirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_dirt.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -416,6 +443,8 @@
 		3735A05515D4EA7E001C80C0 /* HoleProject */ = {
 			isa = PBXGroup;
 			children = (
+				373954BA15D4F63500F78440 /* Level.h */,
+				373954BB15D4F63500F78440 /* Level.m */,
 				3735A1A715D4EA83001C80C0 /* AppDelegate.h */,
 				3735A1A815D4EA83001C80C0 /* AppDelegate.m */,
 				3735A1AA15D4EA83001C80C0 /* RootViewController.h */,
@@ -433,6 +462,8 @@
 		3735A05615D4EA7E001C80C0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				373954BD15D4F95100F78440 /* Background */,
+				373954A815D4F60200F78440 /* Images */,
 				3735A05715D4EA7E001C80C0 /* Default.png */,
 				3735A05915D4EA7E001C80C0 /* fps_images.png */,
 				3735A05B15D4EA7E001C80C0 /* Icon-72.png */,
@@ -758,6 +789,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		373954A815D4F60200F78440 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				373954A915D4F60200F78440 /* BadMonster.png */,
+				373954AA15D4F60200F78440 /* GoodMonster.png */,
+				373954AB15D4F60200F78440 /* Hole.plist */,
+				373954AC15D4F60200F78440 /* Hole.png */,
+				373954B015D4F60200F78440 /* RHole.png */,
+				373954AD15D4F60200F78440 /* LHole.png */,
+				373954AE15D4F60200F78440 /* Monsters.plist */,
+				373954AF15D4F60200F78440 /* Monsters.png */,
+			);
+			name = Images;
+			path = Resources/Images;
+			sourceTree = "<group>";
+		};
+		373954BD15D4F95100F78440 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				373954BE15D4F95100F78440 /* background.plist */,
+				373954BF15D4F95100F78440 /* background.png */,
+				373954C015D4F95100F78440 /* background.pvr.ccz */,
+				373954C115D4F95100F78440 /* bg_dirt.png */,
+			);
+			name = Background;
+			path = Resources/Background;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -817,6 +876,18 @@
 				3735A06415D4EA7E001C80C0 /* Icon.png in Resources */,
 				3735A06615D4EA7E001C80C0 /* Icon@2x.png in Resources */,
 				3735A06915D4EA7E001C80C0 /* iTunesArtwork in Resources */,
+				373954B115D4F60200F78440 /* BadMonster.png in Resources */,
+				373954B215D4F60200F78440 /* GoodMonster.png in Resources */,
+				373954B315D4F60200F78440 /* Hole.plist in Resources */,
+				373954B415D4F60200F78440 /* Hole.png in Resources */,
+				373954B515D4F60200F78440 /* LHole.png in Resources */,
+				373954B615D4F60200F78440 /* Monsters.plist in Resources */,
+				373954B715D4F60200F78440 /* Monsters.png in Resources */,
+				373954B815D4F60200F78440 /* RHole.png in Resources */,
+				373954C215D4F95100F78440 /* background.plist in Resources */,
+				373954C315D4F95100F78440 /* background.png in Resources */,
+				373954C415D4F95100F78440 /* background.pvr.ccz in Resources */,
+				373954C515D4F95100F78440 /* bg_dirt.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -925,6 +996,7 @@
 				3735A1A915D4EA83001C80C0 /* AppDelegate.m in Sources */,
 				3735A1AC15D4EA83001C80C0 /* RootViewController.m in Sources */,
 				3735A1AF15D4EA83001C80C0 /* HelloWorldLayer.m in Sources */,
+				373954BC15D4F63500F78440 /* Level.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1022,6 +1094,7 @@
 				3735A1B515D4EA83001C80C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

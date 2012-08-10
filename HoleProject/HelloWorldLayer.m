@@ -9,6 +9,8 @@
 
 // Import the interfaces
 #import "HelloWorldLayer.h"
+#import "Level.h"
+
 
 // HelloWorldLayer implementation
 @implementation HelloWorldLayer
@@ -35,6 +37,20 @@
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init])) {
 		
+       
+        /* Вызов метода level1 из класса Level
+        mainLevel = [[[Level alloc] init] autorelease];
+        [mainLevel level1];
+        [self addChild:mainLevel z:1001];
+        */
+        
+        //Вызов через initWithLevel с передачей id из класса Level
+        mainLevel = [[[Level alloc] initWithLevel:10] autorelease];
+        [self addChild:mainLevel z:1000];
+        
+               
+        
+                
 		// create and initialize a Label
 		CCLabelTTF *label = [CCLabelTTF labelWithString:@"Hello World" fontName:@"Marker Felt" fontSize:64];
 
