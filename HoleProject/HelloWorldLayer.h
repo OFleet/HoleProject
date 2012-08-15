@@ -11,16 +11,18 @@
 #import "cocos2d.h"
 
 @class Level;
+@class Monster;
 
 
 // HelloWorldLayer
 @interface HelloWorldLayer : CCLayer
 {
-Level *mainLevel;
-    
-    
+Level *loadMainLevel;
+Monster *loadMonster;   
 
-    
+
+
+
 }
 
 // returns a CCScene that contains the HelloWorldLayer as the only child

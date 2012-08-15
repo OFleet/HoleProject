@@ -135,6 +135,7 @@
 		373954C315D4F95100F78440 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 373954BF15D4F95100F78440 /* background.png */; };
 		373954C415D4F95100F78440 /* background.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 373954C015D4F95100F78440 /* background.pvr.ccz */; };
 		373954C515D4F95100F78440 /* bg_dirt.png in Resources */ = {isa = PBXBuildFile; fileRef = 373954C115D4F95100F78440 /* bg_dirt.png */; };
+		373954CC15D8F94000F78440 /* Monster.m in Sources */ = {isa = PBXBuildFile; fileRef = 373954CB15D8F93F00F78440 /* Monster.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -387,6 +388,8 @@
 		373954BF15D4F95100F78440 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		373954C015D4F95100F78440 /* background.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = background.pvr.ccz; sourceTree = "<group>"; };
 		373954C115D4F95100F78440 /* bg_dirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_dirt.png; sourceTree = "<group>"; };
+		373954CA15D8F93F00F78440 /* Monster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monster.h; sourceTree = "<group>"; };
+		373954CB15D8F93F00F78440 /* Monster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Monster.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -445,6 +448,8 @@
 			children = (
 				373954BA15D4F63500F78440 /* Level.h */,
 				373954BB15D4F63500F78440 /* Level.m */,
+				373954CA15D8F93F00F78440 /* Monster.h */,
+				373954CB15D8F93F00F78440 /* Monster.m */,
 				3735A1A715D4EA83001C80C0 /* AppDelegate.h */,
 				3735A1A815D4EA83001C80C0 /* AppDelegate.m */,
 				3735A1AA15D4EA83001C80C0 /* RootViewController.h */,
@@ -997,6 +1002,7 @@
 				3735A1AC15D4EA83001C80C0 /* RootViewController.m in Sources */,
 				3735A1AF15D4EA83001C80C0 /* HelloWorldLayer.m in Sources */,
 				373954BC15D4F63500F78440 /* Level.m in Sources */,
+				373954CC15D8F94000F78440 /* Monster.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

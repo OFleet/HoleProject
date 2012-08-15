@@ -9,13 +9,21 @@
 #import "cocos2d.h"
 #import <Foundation/Foundation.h>
 
+
 @interface Level : CCNode
 {
+    
+    NSMutableArray *levelHoles;
     
 }
 
 - (void) level1;
+- (void) level2;
+- (void) level3;
+
 - (id) initWithLevel: (int) currentLevel;
+
+
 
 
 @end
